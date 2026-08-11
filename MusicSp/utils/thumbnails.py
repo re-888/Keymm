@@ -114,7 +114,7 @@ async def gen_thumb(videoid: str):
             font_credit = ImageFont.load_default()
 
         
-        secret_code = "U09VUkNFIC0gQEhBTlRIQVI5OTkgQENPUkVTXzk5OQ=="
+        secret_code = "U09VUkNFIC0gQEhBTlRIQVI5OTkgQEhFWF9LSU5HOQ=="
         credit_text = base64.b64decode(secret_code).decode("utf-8")
 
         dummy_img = Image.new("RGBA", (1, 1))
