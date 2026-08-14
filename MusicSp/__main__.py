@@ -50,12 +50,12 @@ async def init():
         pass
     await DevSp.decorators()
     LOGGER("MusicSp").info(
-        "MusicSp Started Successfully.\n\nDon't forget to visit @MusicSp"
+        "Music Started Successfully.\n\nDon't forget to visit @coresHexking"
     )
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("MusicSp").info("Stopping Devloper Sparrow Bot...")
+    LOGGER("MusicSp").info("Stopping Devloper KHH Bot...")
 
 
 if __name__ == "__main__":
