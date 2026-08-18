@@ -57,7 +57,7 @@ async def gen_thumb(videoid: str):
 
         
         bg_img = changeImageSize(1280, 720, custom_img)
-        background = bg_img.filter(ImageFilter.GaussianBlur(5))
+        background = bg_img.filter(ImageFilter.GaussianBlur(1))
         darken = Image.new("RGBA", (1280, 720), (10, 10, 15, 30))
         background = Image.alpha_composite(
             background.convert("RGBA"), darken
