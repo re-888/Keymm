@@ -35,7 +35,7 @@ API_KEY = getenv("API_KEY", None) # .z
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/core-999/Keymm",
+    "https://github.com/re-888/Keymm",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
