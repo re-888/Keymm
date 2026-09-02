@@ -33,7 +33,6 @@ def private_panel(_):
                 text=_["S_B_3"],
                 url=f"https://t.me/{app.username}?startgroup=true",
                 style=ButtonStyle.PRIMARY,
-                icon_custom_emoji_id="6242217932277946089"
             )
         ],
         [InlineKeyboardButton(text=_["S_B_4"], callback_data="settings_back_helper")],
@@ -41,6 +40,6 @@ def private_panel(_):
             InlineKeyboardButton(text=_["S_B_6"], url=config.SUPPORT_CHANNEL),
             InlineKeyboardButton(text=_["S_B_2"], url=config.SUPPORT_GROUP),
         ],
-        [InlineKeyboardButton(text="𝐎𝐰𝐧𝐞𝐫", user_id=config.OWNER_ID, style=ButtonStyle.SUCCESS, icon_custom_emoji_id="6235572922086331108")],
+        [InlineKeyboardButton(text="𝐎𝐰𝐧𝐞𝐫", user_id=config.OWNER_ID, style=ButtonStyle.SUCCESS)],
     ]
     return buttons
