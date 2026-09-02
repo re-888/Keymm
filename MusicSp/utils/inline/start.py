@@ -1,8 +1,17 @@
-from pyrogram.types import InlineKeyboardButton
+
 
 import config
 from MusicSp import app
-
+try:
+    from pyrogram.enums import ButtonStyle
+except ImportError:
+    class ButtonStyle:
+        PRIMARY = None
+        SECONDARY = None
+        SUCCESS = None
+        DANGER = None
+        DEFAULT = None
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 def start_panel(_):
     buttons = [
