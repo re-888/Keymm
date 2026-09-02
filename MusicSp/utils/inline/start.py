@@ -37,9 +37,9 @@ def private_panel(_):
         ],
         [InlineKeyboardButton(text=_["S_B_4"], callback_data="settings_back_helper")],
         [
-            InlineKeyboardButton(text=_["S_B_6"], url=config.SUPPORT_CHANNEL),
-            InlineKeyboardButton(text=_["S_B_2"], url=config.SUPPORT_GROUP),
+            InlineKeyboardButton(text=_["S_B_6"], url=config.SUPPORT_CHANNEL, icon_custom_emoji_id="6289681091880039542"),
+            InlineKeyboardButton(text=_["S_B_2"], url=config.SUPPORT_GROUP, icon_custom_emoji_id="6289371012421132934" ),
         ],
-        [InlineKeyboardButton(text="𝐎𝐰𝐧𝐞𝐫", user_id=config.OWNER_ID, style=ButtonStyle.SUCCESS, icon_custom_emoji_id="6185994856163185048")],
+        [InlineKeyboardButton(text="𝐎𝐰𝐧𝐞𝐫", user_id=config.OWNER_ID, style=ButtonStyle.SUCCESS, icon_custom_emoji_id="6289755072691707859")],
     ]
     return buttons
